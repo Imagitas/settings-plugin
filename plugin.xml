@@ -10,7 +10,7 @@
     <platform name="ios">
 		<config-file target="config.xml" parent="/*">
 			<feature name="NativeSettings">
-				<param name="ios-package" value="NativeSettings" onload="true"/>
+				<param name="ios-package" value="NativeSettings" />
 			</feature>
 		</config-file>
 		<header-file src="src/ios/NativeSettings.h"/>
