@@ -1,17 +1,13 @@
-module.exports = {
-    open: function(success,failure) {
+'use strict';
 
-        cordova.exec(
-        // Success callback
-        success,
-        // Failure callback
-        failure,
-        // Native Class Name
-        "NativeSettings",
-        // Name of method in native class.
-        "cordovaOpenSettings",
-        // array of args to pass to method.
-        []
-        );
-    }
-};
+var NativeSettings = (function () {
+    var NativeSettings = (typeof exports !== 'undefined') && exports || {};
+
+    NativeSettings.open = function (success, fail) {
+        return cordova.exec(success, fail, "NativeSettings", "cordovaOpenSettings", []);
+    };
+
+    return NativeSettings;
+}());
+
+module.exports = NativeSettings;
