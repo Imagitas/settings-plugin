@@ -10,7 +10,7 @@ cordova plugin add https://github.com/Imagitas/settings-plugin.git
 ## Usage
 
 ```
-plugins.AppSettings.open(successHandler, failureHandler);
+plugins.settings.open(successHandler, failureHandler);
 
 ```
 

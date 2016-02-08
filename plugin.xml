@@ -9,8 +9,8 @@
     </js-module>
     <platform name="ios">
 		<config-file target="config.xml" parent="/*">
-			<feature name="Settings">
-				<param name="ios-package" value="Settings"/>
+			<feature name="AppSettings">
+				<param name="ios-package" value="AppSettings"/>
 			</feature>
 		</config-file>
 		<header-file src="src/ios/AppSettings.h"/>
