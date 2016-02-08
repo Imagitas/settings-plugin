@@ -1,6 +1,6 @@
 #import <Cordova/CDV.h>
 
-@interface AppSettings : CDVPlugin
+@interface Settings : CDVPlugin
 
 // This will open the settings
 - (void) cordovaOpenSettings:(CDVInvokedUrlCommand *)command;

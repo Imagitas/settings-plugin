@@ -9,11 +9,11 @@
     </js-module>
     <platform name="ios">
 		<config-file target="config.xml" parent="/*">
-			<feature name="AppSettings">
-				<param name="ios-package" value="AppSettings"/>
+			<feature name="Settings">
+				<param name="ios-package" value="Settings"/>
 			</feature>
 		</config-file>
-		<header-file src="src/ios/AppSettings.h"/>
-		<source-file src="src/ios/AppSettings.m"/>
+		<header-file src="src/ios/Settings.h"/>
+		<source-file src="src/ios/Settings.m"/>
 	</platform>
 </plugin>
