@@ -4,7 +4,7 @@ Cordova plugin for opening settings
 ## Installation
 
 ```
-cordova plugin add https://github.com/pmcloughlin/settings-plugin.git
+cordova plugin add https://github.com/Imagitas/settings-plugin.git
 ```
 
 ## Usage

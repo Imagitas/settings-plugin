@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com.imagitas.cordova.plugins.settings" version="0.1.1">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com.imagitas.cordova.plugins.settings" version="0.1.2">
 	<name>Settings</name>
     <description>Plugin that opens app specific or generic settings</description>
     <license>Apache 2.0</license>
@@ -13,7 +13,7 @@
 				<param name="ios-package" value="Settings"/>
 			</feature>
 		</config-file>
-		<header-file src="src/ios/Settings.h"/>
-		<source-file src="src/ios/Settings.m"/>
+		<header-file src="src/ios/AppSettings.h"/>
+		<source-file src="src/ios/AppSettings.m"/>
 	</platform>
 </plugin>
