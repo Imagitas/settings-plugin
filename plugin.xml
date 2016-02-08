@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com.imagitas.cordova.plugins.settings" version="0.1.3">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="com.imagitas.cordova.plugins.settings" version="0.1.4">
 	<name>NativeSettings</name>
     <description>Plugin that opens app specific or generic settings</description>
     <license>Apache 2.0</license>
