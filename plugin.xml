@@ -4,8 +4,8 @@
     <description>Plugin that opens app specific or generic settings</description>
     <license>Apache 2.0</license>
     <keywords>cordova,settings</keywords>
-    <js-module src="www/AppSettings.js" name="AppSettings">
-		<clobbers target="AppSettings"/>
+    <js-module src="www/settings.js" name="settings">
+		<merges target="plugins.settings" />
     </js-module>
     <platform name="ios">
 		<config-file target="config.xml" parent="/*">
