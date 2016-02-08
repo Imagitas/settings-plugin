@@ -1,8 +1,8 @@
 
-#import "Settings.h"
+#import "NativeSettings.h"
 #import <Cordova/CDV.h>
 
-@implementation Settings
+@implementation NativeSettings
 
 -(void) cordovaOpenSettings:(CDVInvokedUrlCommand*)command {
 

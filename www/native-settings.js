@@ -7,7 +7,7 @@ module.exports = {
         // Failure callback
         failure,
         // Native Class Name
-        "Settings",
+        "NativeSettings",
         // Name of method in native class.
         "cordovaOpenSettings",
         // array of args to pass to method.
